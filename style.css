@@ -1,0 +1,14 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
