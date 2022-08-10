@@ -5,6 +5,11 @@
 
 }
 
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+
+}
 a {
     text-decoration: none;
 }
