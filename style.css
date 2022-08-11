@@ -18,12 +18,11 @@ body {
     width: 8em;
 }
 
-
 button {
     background-color: #3882F6;
-    border: none;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-style: solid;
     color: white;
 }
 
@@ -68,9 +67,39 @@ button:hover {
     text-align: right;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 50px;
 }
 
+/* advertise is the container */
 
+.advertise {
+    border-radius: 10px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    font-family: Roboto, sans-serif;
+    color:white;
+    margin: 80px;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 32px;
+}
+
+.button {
+    display: flex;
+}
+
+/* ad is the text itself*/
+
+.ad {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
 a {
     text-decoration: none;
 }
