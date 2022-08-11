@@ -84,7 +84,7 @@ button:hover {
     background-color: #3882F6;
     font-family: Roboto, sans-serif;
     color:white;
-    margin: 80px;
+    margin: 90px;
     margin-left: 175px;
     margin-right: 175px;
     padding: 32px;
@@ -128,7 +128,6 @@ img {
 .image {
     display: flex;
     margin-right: 180px;
-    margin-left: 20px;
 
 }
 
@@ -139,7 +138,7 @@ img {
     flex-wrap: wrap;
     gap: 15px;
     margin-left: 180px;
-    margin-right: 20px;
+    padding-right: 40px;
     margin-bottom: 40px;
 }
 
@@ -160,4 +159,34 @@ img {
     color: #E5E7EB;
 }
 
+.text {
+    display: flex;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
 
+.minitext {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(82, 75, 75);
+}
+
+.boxtext {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.vector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
+}
