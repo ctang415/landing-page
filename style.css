@@ -25,17 +25,30 @@ body {
 
 .footer {
     margin-top: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
 }
 
 .testimonial {
+    font-family: Helvetica; 
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
     display: flex;
-
+    padding: 80px;
+    margin: auto;
 }
+
+
 a {
     text-decoration: none;
 }
 
 ul {
+    display: flex;
     list-style: none;
 }
