@@ -12,9 +12,18 @@ body {
 
 }
 
-.buttons {
-    color: #3882F6;
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
 }
+
+button:hover {
+    background-color:#002ead;
+}
+
 
 .header,
 .footer {
@@ -29,6 +38,7 @@ body {
     display: flex;
     justify-content: center;
     color: #E5E7EB;
+    padding: 25px;
 }
 
 .testimonial {
