@@ -9,13 +9,20 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
 }
+
+.button,
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+}
+
 
 button {
     background-color: #3882F6;
     border: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     color: white;
 }
@@ -49,8 +56,18 @@ button:hover {
     font-weight: lighter;
     color: #1F2937;
     display: flex;
-    padding: 80px;
+    padding: 70px;
     margin: auto;
+    flex-wrap: wrap;
+}
+ .words {
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+.name {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
